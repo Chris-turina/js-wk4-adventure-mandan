@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="room">
+    <h1>{{player.name}}</h1>
+    <div class="enter-name">
+      <p>Enter Name</p>
+      <input #playerName type="text" placeholder="Enter Name Here">
+      <button type="button" (click)="makePlayer(playerName.value)" routerLink="room/0">Submit</button>
+    </div>
+  </div>
+</div>

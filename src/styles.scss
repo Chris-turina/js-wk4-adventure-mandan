@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Simonetta');
+$darkwhite: #f4f4f4;
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  font-family: Simonetta, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.container-0 {
+  background-image:url('http://www.scottsavagelive.com/wp-content/uploads/2016/02/Solitary-confinement.jpg');
+}
+.container-1 {
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/2d/Gatchina_Palace._An_underground_tunnel_%22Echo%22.JPG');
+}
+.container-2 {
+  background-image:url('https://luraycaverns.com/img/Dream-Lake.jpg');
+}
+.container-3 {
+  background-image:url('https://i.ytimg.com/vi/I2MOimXE69s/maxresdefault.jpg');
+}
+.container-4 {
+  background-image:url('http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/418370/8dfc01ca250a238324e00d5664e83a9e019cd114.jpg');
+}
+.container-5{
+  background-image:url('https://us.v-cdn.net/5021068/uploads/editor/x4/oyymggu3lrle.png');
+}
+.container-6 {
+  background-image:url('https://vv-hotel.com/photos/7-entertainment/medieval_entertainment/zbroyarnya_2.jpg');
+}
+.container-7 {
+  background-image:url('https://previews.123rf.com/images/pippawest/pippawest0612/pippawest061200021/661634-Medieval-door-bolt-locked-door-Stock-Photo.jpg');
+}
+.container-8 {
+  background-image:url('http://c8.alamy.com/comp/ATA5D9/medieval-staircase-in-courtyard-venice-ATA5D9.jpg');
+}
+
+.room {
+  color: darkgrey;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  width: 300px;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 5px;
+  text-align: center;
+
+  h2 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  button {
+    border: 1px solid #444;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: grey;
+    &:hover {
+      cursor: pointer;
+      background-color: $darkwhite;
+    }
+  }
+}

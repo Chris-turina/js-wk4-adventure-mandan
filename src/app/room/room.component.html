@@ -1,0 +1,13 @@
+<div class="container container-{{room.id}}">
+  <div class="room">
+    <h2>{{room.name}}</h2>
+
+    <p>{{room.text}}</p>
+
+    <div class="options">
+      <div *ngFor="let option of room.getOptions(player.hasRock)" class="option">
+        <button type="button" (click)="goToRoom(option.linkedId)">{{option.description}}</button>
+      </div>
+    </div>
+  </div>
+</div>
